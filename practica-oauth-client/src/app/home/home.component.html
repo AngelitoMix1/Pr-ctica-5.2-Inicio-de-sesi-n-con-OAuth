@@ -1,0 +1,24 @@
+<div style="padding: 50px; text-align: center; font-family: sans-serif;">
+  
+  <div *ngIf="user; else noUser">
+    <h1>¡Bienvenido, {{ user.displayName }}!</h1>
+    
+    <div style="background: #eef2ff; display: inline-block; padding: 20px; border-radius: 8px; text-align: left; margin-top: 20px;">
+      <p><strong>Nombre:</strong> {{ user.displayName }}</p>
+      <p><strong>Correo:</strong> {{ user.emails[0].value }}</p>
+    </div>
+    
+    <br><br>
+    <button (click)="logout()" style="padding: 10px 20px; color: white; background: red; border: none; border-radius: 5px; cursor: pointer;">
+      Cerrar Sesión
+    </button>
+  </div>
+
+  <ng-template #noUser>
+    <h2>No has iniciado sesión o tu sesión expiró.</h2>
+    <a href="/" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background: blue; color: white; text-decoration: none; border-radius: 5px;">
+      Volver al Login
+    </a>
+  </ng-template>
+
+</div>

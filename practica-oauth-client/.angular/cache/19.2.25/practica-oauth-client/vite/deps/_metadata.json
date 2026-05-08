@@ -1,0 +1,52 @@
+{
+  "hash": "c739ecec",
+  "configHash": "697ff1e8",
+  "lockfileHash": "0c3a938f",
+  "browserHash": "1af84b34",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "13078c5f",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "48f53b46",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "f3d77606",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "78dae9b8",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "7931097b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RDXAMZ2R": {
+      "file": "chunk-RDXAMZ2R.js"
+    },
+    "chunk-IS6ZLKAX": {
+      "file": "chunk-IS6ZLKAX.js"
+    },
+    "chunk-7OLT3E3M": {
+      "file": "chunk-7OLT3E3M.js"
+    },
+    "chunk-4ULMLRGT": {
+      "file": "chunk-4ULMLRGT.js"
+    }
+  }
+}
